@@ -143,19 +143,8 @@
     </div>
 </div>
 <!-- Rename dialog -->
-
 <?php
-        $class = array('A', 'B', 'C');
-        $arrLen = count($class);
-        for($i = 1; $i <= 10; $i++) {
-            $j = $i % $arrLen;
-            echo "<tr class='$class[$j]'>";
-                echo "<td>$i</td>";
-                echo "<td>Sinh viên $i</td>";
-            echo "</tr>";
-        }
-    ?>
-
+?>
 
 </body>
 </html>
